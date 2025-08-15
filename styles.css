@@ -35,13 +35,22 @@ html, body {
     margin: 0;
 }
 
+/* Nền mặc định cho PC (màn hình ≥ 768px) */
 body {
-    background-image: url('https://i.imgur.com/38AIBwh.jpeg');
-    background-repeat: no-repeat;
+    background: url('pc-background.jpg') no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed; /* Giữ nền đứng yên khi cuộn */
+    margin: 0;
+    min-height: 100vh;
 }
+
+/* Nền cho điện thoại (màn hình < 768px) */
+@media screen and (max-width: 767px) {
+    body {
+        background: url('mobile-background.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
 
 
 /* Container chứa toàn bộ nội dung */
