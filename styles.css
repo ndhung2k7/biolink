@@ -37,7 +37,7 @@ html, body {
 
 /* Nền mặc định cho PC (màn hình ≥ 768px) */
 body {
-    background: url('pc-background.jpg') no-repeat center center fixed;
+    background: url('https://i.imgur.com/TQCO2Ej.jpeg') no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     min-height: 100vh;
@@ -46,7 +46,7 @@ body {
 /* Nền cho điện thoại (màn hình < 768px) */
 @media screen and (max-width: 767px) {
     body {
-        background: url('mobile-background.jpg') no-repeat center center fixed;
+        background: url('https://i.imgur.com/Bhyc4Xx.jpeg') no-repeat center center fixed;
         background-size: cover;
     }
 }
