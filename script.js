@@ -29,7 +29,6 @@ document.addEventListener("DOMContentLoaded", function() {
         "emoji/golden dragon.gif",
         "emoji/green tick.gif",
         "emoji/heart.gif",
-        "emoji/love.gif",
         "emoji/online.gif",
         "emoji/open.gif",
         "emoji/tick 7 colors.gif",
