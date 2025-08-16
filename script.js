@@ -20,3 +20,17 @@
 
         changeQuote();
         setInterval(changeQuote, 5000);
+document.addEventListener("DOMContentLoaded", function() {
+    const icons = [
+        "flashing-dragon-emoji.gif",
+        "love.gif",
+        "star.gif",
+        "fire.gif"
+    ];
+
+    // Chọn ngẫu nhiên 1 icon
+    const randomIcon = icons[Math.floor(Math.random() * icons.length)];
+
+    // Gắn vào ảnh
+    document.getElementById("verifiedIcon").src = randomIcon;
+});
