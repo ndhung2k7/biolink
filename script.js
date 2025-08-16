@@ -22,15 +22,24 @@
         setInterval(changeQuote, 5000);
 document.addEventListener("DOMContentLoaded", function() {
     const icons = [
-        "flashing-dragon-emoji.gif",
-        "love.gif",
-        "star.gif",
-        "fire.gif"
+        "emoji/24-7.gif",
+        "emoji/butterfly.gif",
+        "emoji/devil.gif",
+        "emoji/flashing dragon.gif",
+        "emoji/golden dragon.gif",
+        "emoji/green tick.gif",
+        "emoji/heart.gif",
+        "emoji/love.gif",
+        "emoji/online.gif",
+        "emoji/open.gif",
+        "emoji/tick 7 colors.gif",
+        "emoji/VN.gif"
     ];
 
-    // Chọn ngẫu nhiên 1 icon
+    // chọn random
     const randomIcon = icons[Math.floor(Math.random() * icons.length)];
 
-    // Gắn vào ảnh
+    // gắn vào thẻ img có id="verifiedIcon"
     document.getElementById("verifiedIcon").src = randomIcon;
 });
+
